@@ -2,7 +2,7 @@ body {
     margin: 0;
 }
 .top {
-    background-color: #1e1e1e;
+    background-image: linear-gradient(to bottom, #201f1f, #1f1f1f, #1b1b1b);
     display: flex;
     align-items: center;
     padding-left: 20px;
@@ -117,7 +117,8 @@ ozon {
     overflow: hidden;
     border-right: 3px solid;
     font-family: monospace;
-    font-size: 2em;
+    font-size: 4em;
+    color: #FFFFFF;
   }
   
   @keyframes typing {
