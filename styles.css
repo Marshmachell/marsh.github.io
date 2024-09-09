@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+}
+.top {
+    background-color: #1e1e1e;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    color: white
+}
+.top mfun {
+    animation: appear 1s ease 0s 1 normal forwards;
+    display: block;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 30px;
+    margin-right: 0;
+    font-family: "Lucida Console", monospace;
+
+    color: #FFFFFF;
+    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
+}
+.top mhead {
+    border-radius: 10px;
+    overflow: hidden;
+    animation: 10s linear infinite rotate;
+    width: 32px;
+    height: 32px;
+    box-shadow: #ffb7b7 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 45px, #FF2D95 0px 0px 50px;
+}
+@keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+
+    to {
+      transform: rotate(360deg);
+    }
+}
+@keyframes appear {
+    0% {
+        animation-timing-function: ease-in;
+        opacity: 0;
+        transform: translateX(100px);
+    }
+
+    38% {
+        animation-timing-function: ease-out;
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    55% {
+        animation-timing-function: ease-in;
+        transform: translateX(34px);
+    }
+
+    72% {
+        animation-timing-function: ease-out;
+        transform: translateX(0);
+    }
+
+    81% {
+        animation-timing-function: ease-in;
+        transform: translateX(16px);
+    }
+
+    90% {
+        animation-timing-function: ease-out;
+        transform: translateX(0);
+    }
+
+    95% {
+        animation-timing-function: ease-in;
+        transform: translateX(4px);
+    }
+
+    100% {
+        animation-timing-function: ease-out;
+        transform: translateX(0);
+    }
+}
+
+.announce {
+    font-family: sans-serif;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}
+
+.announce an01 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.announce an02 {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+ozon {
+    margin-top: 20px;
+}
